@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: lightblue; */
+}
+
+.navigation {
+    height: 100px;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+.home {
+    height: calc(100% - 100px);
+    width: 100%;
+    background-color: lightseagreen;
+}
+
+.cards {
+    height: 60vh;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.firstbox {
+    background-color: darkorange;
+}
+
+.secondbox {
+    background-color: crimson;
+}
+
+.thirdbox {
+    background-color: deeppink;
+    /* animation-duration: 3s; */
+    /* animation-delay: ; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: ; */
+}
+
+.about {
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+}
+
+.box {
+    height: 50vh;
+    width: 22%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.upper-card {
+    height: 70%;
+    width: 100%;
+    background-image: url(/Session_07/josh-berquist-_4sWbzH5fp8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lower-card {
+    height: fit-content;
+    width: 100%;
+    padding: 1vw;
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}
+
+.s {
+    background-color: purple;
+}
+
+.t {
+    background-color: darkgreen;
+}
