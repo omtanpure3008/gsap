@@ -37,26 +37,26 @@
 let tl = gsap.timeline();
 
 
-// tl.from(".box", {
-//     y: -100,
-//     opacity: 0,
-//     duration: 2,
-//     stagger: 1,
-//     scrollTrigger: {
-//         trigger: ".box",
-//         scroller: "body",
-//         markers: "true",
-//         start: "10px 50%",
-//         end: "20px 30%",
-//         scrub: 3,
-//     }
-// })
+tl.from(".box", {
+    y: -100,
+    opacity: 0,
+    duration: 2,
+    stagger: 1,
+    scrollTrigger: {
+        trigger: ".box",
+        scroller: "body",
+        markers: "true",
+        start: "10px 50%",
+        end: "20px 30%",
+        scrub: 3,
+    }
+})
 
-// tl.to(".lower-card", {
-//     backgroundColor: "green",
-//     duration: 2,
-//     delay: 1,
-// })
+tl.to(".lower-card", {
+    backgroundColor: "green",
+    duration: 2,
+    delay: 1,
+})
 
 
 tl.to(".f", {
